@@ -1,11 +1,11 @@
 /* eslint-env node, mocha */
 
-import React from 'react'
-import matchRoutes from 'react-router/lib/matchRoutes'
-import { createRoutes } from 'react-router/lib/RouteUtils'
+import React from 'react';
+import matchRoutes from 'react-router/lib/matchRoutes';
+import { createRoutes } from 'react-router/lib/RouteUtils';
 import { shallow } from 'enzyme';
-import { createMemoryHistory } from 'history'
-import {expect} from 'chai'
+import { createMemoryHistory } from 'history';
+import {expect} from 'chai';
 
 /*containers*/
 import Routes from './index';

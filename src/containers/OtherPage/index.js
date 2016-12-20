@@ -12,14 +12,13 @@ import { changeMessage } from '../../actions/message';
 
 class HomePage extends Component {
   componentDidMount() {
-    this.props.changeMessage('Loaded!');
+    this.props.changeMessage('Another Page Loaded!');
   }
   render() {
     return (
       <div>
         <MessageDisplay message={this.props.message} />
-        <div>What is up</div>
-        <Link to="/other-page">Go to other page</Link>
+        <Link to="/">Go back to home</Link>
       </div>
     );
   }
