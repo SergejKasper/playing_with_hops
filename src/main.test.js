@@ -4,9 +4,15 @@ import React from 'react';
 import assert from 'assert';
 import { shallow } from 'enzyme';
 
+<<<<<<< HEAD
 import { Home as HomeContainer } from './main';
 
 const Home = HomeContainer.WrappedComponent;
+=======
+import { HomePage as HomeContainer } from './containers/HomePage';
+
+const HomePage = HomeContainer.WrappedComponent;
+>>>>>>> improve
 
 describe('<Home />', () => {
   var home = shallow(<Home />);

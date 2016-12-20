@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "hoops",
+=======
+  "name": "hops_sample",
+>>>>>>> improve
   "version": "1.0.0",
   "description": "",
   "main": "src/main.js",
