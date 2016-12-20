@@ -1,5 +1,7 @@
 /*modules*/
 import React, { Component, PropTypes } from 'react';
+/*styling*/
+import { headline } from './style.css';
 
 export default class App extends Component {
   static propTypes = {
@@ -8,7 +10,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className={headline}>
         {this.props.children}
       </div>
     );

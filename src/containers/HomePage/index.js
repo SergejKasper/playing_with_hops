@@ -4,12 +4,10 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux'
 /*components*/
-import MessageDisplay from '../components/MessageDisplay';
+import MessageDisplay from '../../components/MessageDisplay';
 /*dataFlow*/
-import reducers from '../reducers';
-import { changeMessage } from '../actions/message';
-/*styling*/
-import { headline } from './style.css';
+import reducers from '../../reducers';
+import { changeMessage } from '../../actions/message';
 
 class HomePage extends Component {
   componentDidMount() {
@@ -17,7 +15,7 @@ class HomePage extends Component {
   }
   render() {
     return (
-      <div className={headline}>
+      <div>
         <MessageDisplay message={this.props.message} />
       </div>
     );

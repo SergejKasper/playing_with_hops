@@ -7,7 +7,7 @@ export default class MessageDisplay extends Component {
     return (
       <div>
         <div>
-          <h2>{this.props.message}</h2>
+          <h1>{this.props.message}</h1>
         </div>
       </div>
     );
