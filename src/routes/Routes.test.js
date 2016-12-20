@@ -19,11 +19,11 @@ describe('<Routes/>', () => {
         done()
       })
   })
-  /*it('matches the correct routes', function (done) {
-    matchRoutes(routes, createLocation('/users'), function (error, match) {
-      expect(match).toExist()
-      expect(match.routes).toEqual([ RootRoute, UsersRoute, UsersIndexRoute ])
+  it('matches the correct routes', function (done) {
+    matchRoutes(routes, createLocation('/other'), function (error, match) {
+      expect(match).to.exist
+      /*expect(match.routes).toEqual([ HomePageRoute,  OtherPageRoute ])*/
       done()
     })
-  })*/
+  })
 });

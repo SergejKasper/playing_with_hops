@@ -7,6 +7,9 @@
   --font-family-sans: 'Helvetica Neue', Arial, sans;
   --font-size: 2rem;
   --primary: rebeccapurple;
+  --padded {
+    padding: 2em;
+  }
 }
 
 
@@ -39,7 +42,7 @@ body { /* stylelint-disable-line */
   text-align: center;
 }
 
-.headline {
+.content {
   margin-top: 2em;
   display: inline-block;
 

@@ -9,6 +9,8 @@ import MessageDisplay from '../../components/MessageDisplay';
 /*dataFlow*/
 import reducers from '../../reducers';
 import { changeMessage } from '../../actions/message';
+/*styling*/
+import { container } from './style.css';
 
 class HomePage extends Component {
   componentDidMount() {
@@ -18,7 +20,7 @@ class HomePage extends Component {
     return (
       <div>
         <MessageDisplay message={this.props.message} />
-        <Link to="/">Go back to home</Link>
+        <Link to="/">home</Link>
       </div>
     );
   }

@@ -1,0 +1,11 @@
+/*
+ * CSS Custom Properties [1]
+ *
+ * [1]: https://www.w3.org/TR/css-variables/
+ */
+
+ .container {
+   background-color: color(white blackness(30%));
+   border-radius: 1em;
+   @apply --padded;
+ }

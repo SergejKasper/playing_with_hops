@@ -9,6 +9,8 @@ import MessageDisplay from '../../components/MessageDisplay';
 /*dataFlow*/
 import reducers from '../../reducers';
 import { changeMessage } from '../../actions/message';
+/*styling*/
+import { container } from './style.css';
 
 class HomePage extends Component {
   componentDidMount() {
@@ -16,10 +18,9 @@ class HomePage extends Component {
   }
   render() {
     return (
-      <div>
+      <div className={container}>
         <MessageDisplay message={this.props.message} />
-        <div>What is up</div>
-        <Link to="/other-page">Go to other page</Link>
+        <Link to="/other">other page</Link>
       </div>
     );
   }

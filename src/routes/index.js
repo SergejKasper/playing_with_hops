@@ -9,6 +9,6 @@ import OtherPage from '../containers/OtherPage';
 export default (
   <Route path="/" component={App}>
     <IndexRoute component={HomePage} />
-    <Route path="/other-page" component={OtherPage} />
+    <Route path="/other" component={OtherPage} />
   </Route>
 );
